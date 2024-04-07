@@ -26,8 +26,8 @@ var alreadyVisitedIds []string
 
 // stolen from: https://stackoverflow.com/a/75049947
 func getAbs(path string, locationPath string) string {
+	var new_abs_path string
 	new_file_path := path
-	new_abs_path := path
 	if filepath.IsAbs(new_file_path) {
 		new_abs_path = new_file_path
 	} else {
