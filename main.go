@@ -15,7 +15,7 @@ func main() {
 		data := genData()
 		for _, v := range data.Devices {
 			var deviceType string = v.ProductType
-			var productName string = "("+v.ProductName+")"
+			var productName string = "(" + v.ProductName + ")"
 			if deviceType == "unknown" && v.ProductName != "unknown" {
 				deviceType = v.ProductName
 			}

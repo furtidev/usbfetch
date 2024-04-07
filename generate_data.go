@@ -14,8 +14,8 @@ type Device struct {
 	ProductName string
 	ProductId   string
 	VendorId    string
-	Speed string
-	Version string
+	Speed       string
+	Version     string
 }
 
 type Data struct {
