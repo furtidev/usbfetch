@@ -1,6 +1,6 @@
 <p align="center"><img src="./assets/logo.png" width="350px"></p>
 <h1 align="center">usbfetch</h1>
-<p align="center">[neofetch](https://github.com/dylanaraps/neofetch) but for USB devices</p>
+<p align="center"><a href="https://github.com/dylanaraps/neofetch">neofetch</a> but for USB devices</p>
 <img src="./assets/example.png">
 
 # 📥 Install & OS Support
